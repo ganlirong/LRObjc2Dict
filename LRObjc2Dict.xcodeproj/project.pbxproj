@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		328569661B148CAA0028D938 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 328569651B148CAA0028D938 /* main.m */; };
-		3285696E1B148D130028D938 /* NSObject+Objc2Dict.m in Sources */ = {isa = PBXBuildFile; fileRef = 3285696D1B148D130028D938 /* NSObject+Objc2Dict.m */; };
 		328569711B149A4C0028D938 /* LRStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 328569701B149A4C0028D938 /* LRStudent.m */; };
+		328569751B15615F0028D938 /* NSObject+Objc2Dict.m in Sources */ = {isa = PBXBuildFile; fileRef = 328569741B15615F0028D938 /* NSObject+Objc2Dict.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,10 +27,10 @@
 /* Begin PBXFileReference section */
 		328569621B148CAA0028D938 /* LRObjc2Dict */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LRObjc2Dict; sourceTree = BUILT_PRODUCTS_DIR; };
 		328569651B148CAA0028D938 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3285696C1B148D130028D938 /* NSObject+Objc2Dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Objc2Dict.h"; sourceTree = "<group>"; };
-		3285696D1B148D130028D938 /* NSObject+Objc2Dict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Objc2Dict.m"; sourceTree = "<group>"; };
 		3285696F1B149A4C0028D938 /* LRStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRStudent.h; sourceTree = "<group>"; };
 		328569701B149A4C0028D938 /* LRStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRStudent.m; sourceTree = "<group>"; };
+		328569731B15615F0028D938 /* NSObject+Objc2Dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Objc2Dict.h"; sourceTree = "<group>"; };
+		328569741B15615F0028D938 /* NSObject+Objc2Dict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Objc2Dict.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +63,19 @@
 		328569641B148CAA0028D938 /* LRObjc2Dict */ = {
 			isa = PBXGroup;
 			children = (
-				3285696C1B148D130028D938 /* NSObject+Objc2Dict.h */,
-				3285696D1B148D130028D938 /* NSObject+Objc2Dict.m */,
+				328569721B15615F0028D938 /* LRObjc2Dict */,
 				328569651B148CAA0028D938 /* main.m */,
 				3285696F1B149A4C0028D938 /* LRStudent.h */,
 				328569701B149A4C0028D938 /* LRStudent.m */,
+			);
+			path = LRObjc2Dict;
+			sourceTree = "<group>";
+		};
+		328569721B15615F0028D938 /* LRObjc2Dict */ = {
+			isa = PBXGroup;
+			children = (
+				328569731B15615F0028D938 /* NSObject+Objc2Dict.h */,
+				328569741B15615F0028D938 /* NSObject+Objc2Dict.m */,
 			);
 			path = LRObjc2Dict;
 			sourceTree = "<group>";
@@ -129,8 +137,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				328569661B148CAA0028D938 /* main.m in Sources */,
-				3285696E1B148D130028D938 /* NSObject+Objc2Dict.m in Sources */,
 				328569711B149A4C0028D938 /* LRStudent.m in Sources */,
+				328569751B15615F0028D938 /* NSObject+Objc2Dict.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +255,7 @@
 				3285696B1B148CAA0028D938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
